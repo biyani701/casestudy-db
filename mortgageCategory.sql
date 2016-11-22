@@ -1,6 +1,5 @@
 DROP TABLE IF EXISTS code_value;
 
-BEGIN;
 create table code_value(
 Type	char(50),
 Code	char(50),
