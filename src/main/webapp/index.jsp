@@ -30,8 +30,8 @@ a form of commercial mortgage used to purchase residential real estate with the 
 </td>
 </tr>
 </table>
-<h3>
-
-</h3>
+<%
+out.println(new Generator().printDBValues());
+%>
 </body>
 </html>
