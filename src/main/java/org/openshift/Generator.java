@@ -27,8 +27,8 @@ public class Generator {
 			Statement stmt = connection.createStatement();
 			ResultSet rs = stmt.executeQuery(SQL);
 			while (rs.next()) {
-				rowValue = rs.getString("FIRST") + " " + rs.getString("SEC") + " ";
-				rowValue = rs.getString("THIRD") + " " + rs.getString("FOURTH") + "\n";
+				
+				rowValue = "<tr><td>" + rs.getString("THIRD") + "</td>" + "<td>" + rs.getString("FOURTH") + "</td></tr>";
 						
 			}
 			rs.close();

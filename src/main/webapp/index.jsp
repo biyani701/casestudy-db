@@ -12,26 +12,22 @@ table, th, td {
 <body>
 <table style="width:100%">
 <tr>
-<td colspan="3">
+<td colspan="2">
 <%
 out.println(new Generator().generateValues());
 %>
 </td>
 </tr>
-<tr>
-<td>
-BTL
-</td>
-<td>
-But To Let
-</td>
-<td>
-a form of commercial mortgage used to purchase residential real estate with the intention of letting it to paying tenants
-</td>
-</tr>
+
 </table>
+<table>
+<tr>
+<td>Mortgage Category</td>
+<td>Description</td>
+</tr>
 <%
 out.println(new Generator().printDBValues());
 %>
+</table>
 </body>
 </html>
