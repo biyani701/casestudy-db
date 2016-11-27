@@ -6,7 +6,7 @@ table {
   display: block;
   font-family: sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 115%;
+  font-size: 90%;
   overflow: auto;
   width: auto;
 }  
