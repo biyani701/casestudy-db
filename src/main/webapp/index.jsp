@@ -2,7 +2,27 @@
 <html>
 <head>
 <style>
-<link rel="stylesheet" href="table-style.css">
+table {
+  display: block;
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 115%;
+  overflow: auto;
+  width: auto;
+}  
+  th {
+    background-color: rgb(112, 196, 105);
+    color: white;
+    font-weight: normal;
+    padding: 20px 30px;
+    text-align: center;
+  }
+  td {
+    background-color: rgb(238, 238, 238);
+    color: rgb(111, 111, 111);
+    padding: 20px 30px;
+  }
+
 </style>
 
 </head>
@@ -10,11 +30,11 @@
 <table class="flat-table">
 <tbody>
 <tr>
-<td>
+<th>
 <%
 out.println(new Generator().generateValues());
 %>
-</td>
+</th>
 </tr>
 </tbody>
 </table>
