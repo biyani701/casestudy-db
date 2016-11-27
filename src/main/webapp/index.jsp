@@ -7,10 +7,10 @@
 
 </head>
 <body>
-<table style="width:100%">
+<table class="flat-table">
 <tbody>
 <tr>
-<td colspan="2">
+<td>
 <%
 out.println(new Generator().generateValues());
 %>
