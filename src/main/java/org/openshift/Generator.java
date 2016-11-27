@@ -28,7 +28,7 @@ public class Generator {
 			ResultSet rs = stmt.executeQuery(SQL);
 			while (rs.next()) {
 				
-				rowValue = "<tr><td>" + rs.getString("THIRD") + "</td>" + "<td>" + rs.getString("FOURTH") + "</td></tr>";
+				rowValue += "<tr><td>" + rs.getString("THIRD") + "</td>" + "<td>" + rs.getString("FOURTH") + "</td></tr>";
 						
 			}
 			rs.close();
